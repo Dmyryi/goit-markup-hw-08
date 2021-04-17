@@ -1,0 +1,16 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 150, 243, 0.9);
+    color: #ffffff;
+    padding: 63px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1, 55;
+    transform: translateY(100%);
+    letter-spacing: 0.03em;
+    transition: transform 250ms linear;
+  }

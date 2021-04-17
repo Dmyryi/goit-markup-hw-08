@@ -1,0 +1,21 @@
+.social-list-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .social-list-item-1 {
+    display:flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-list-link-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
