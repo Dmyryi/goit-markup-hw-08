@@ -1,54 +1,68 @@
-.footer-subscription{
-    margin-left: 615px;
-    padding-bottom: 90px;
-      width: 1200px;
-      margin-top: -194px;
-  }
+@media screen and(min-width:480px) {
+  .footer-subscription{
+  display: block;
+  align-items:center;
+  padding-top:30px;
+ }
 
-  
-.input-footer{
-    font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  
-  color: #FFFFFF;
-  
-  }
+ 
+ .input-footer{
+   text-align:center;
+   font-family: Roboto;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ 
+ color: #FFFFFF;
+ 
+ }
 
-  .airplane{
-    width: 24px;
-    height: 24px;
+ .airplane{
+   width: 24px;
+   height: 24px;
+  
+ }
+ 
+.subscription-btn{
+  background-color:#2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+}
+
+ .subscription{
+   margin:0 auto;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1,875;
    
-  }
-  
-  .subscription{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1,875;
-    
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    padding-left: 29px;
-    display: flex;
-  color: #FFFFFF;
-  padding-top:10px;
-  padding-bottom:13px;
-  max-height: 50px;
-  
-  }
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   padding-left: 29px;
+   display: flex;
+ color: #FFFFFF;
+ padding-top:10px;
+ padding-bottom:13px;
+ max-height: 50px;
+ 
+ }
 
-  .btn-subscripton{
-    border-radius: 5px;
-  min-width: 200px;
-  height: 50px;
+ .btn-subscripton{
+   margin:0 auto;
+   margin-top:20px;
+   display: block;
+   border-radius: 5px;
+ min-width: 200px;
+ height: 50px;
+ 
+ 
+   background-color: #2196F3;
+ }
+
+}
   
-  
-    background-color: #2196F3;
-  }

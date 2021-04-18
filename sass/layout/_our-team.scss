@@ -1,3 +1,84 @@
+@media screen and(max-width:767px) {
+  .team-list{
+    margin: 0 auto;
+  }
+
+    .heading-3 {
+    text-align: center;
+    padding-top: 94px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .team-list{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+    .heading-3 {
+    text-align: center;
+    padding-top: 94px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+}
+
+@media screen and(min-width:1200px){
+  .team-list{
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: nowrap;
+  }
+
+    .heading-3 {
+    text-align: center;
+    padding-top: 94px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
+
+@media screen and(min-width:768px) {
+  .team-list{
+    margin: 0 auto;
+    display: flex;
+  }
+
+    .heading-3 {
+    text-align: center;
+    padding-top: 94px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 0.84;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+}
 .our-team {
     width: 100%;
     margin: 0 auto;
@@ -7,21 +88,21 @@
     background-color: #f5f4fa;
   }
 
-  .heading-3 {
-    text-align: center;
-    padding-top: 94px;
-    margin-top: 94px;
-    margin-bottom: 50px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: #212121;
-  }
+  // .heading-3 {
+  //   text-align: center;
+  //   padding-top: 94px;
+  //   margin-top: 94px;
+  //   margin-bottom: 50px;
+  //   font-family: "Roboto", sans-serif;
+  //   font-weight: bold;
+  //   font-size: 36px;
+  //   line-height: 1.16;
+  //   letter-spacing: 0.03em;
+  //   color: #212121;
+  // }
 
-  .team-list {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-  }
+  // .team-list {
+  //   width: 1200px;
+  //   margin: 0 auto;
+  //   display: flex;
+  // }
