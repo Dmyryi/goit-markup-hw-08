@@ -1,3 +1,5 @@
+@media screen and (max-width:767px){
+    
 .aspects {
     width: 100%;
     margin: 0 auto;
@@ -8,31 +10,99 @@
     align-items: center;
    }
    
-   
-   
-   .featers-icon {
-    width: 270px;
+   .aspects {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   }
+
+      .featers-icon {
+          margin-top:60px;
+          margin:0 auto;
+    max-width: 450px;
     height: 120px;
     border-radius: 4px;
     background-color: #f5f4fa;
    }
-   
+
    .aspects-icon {
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-right: 100px;
-    padding-left: 100px;
-   
+    padding-left: 192px;
     text-align: center;
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    margin: 0;
    }
-   
+
+   .aspect {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+
+max-width:450px;
+margin:0 auto;
+letter-spacing: 0.03em;
+
+color: #757575;
+   }
+}
+
+@media screen and (min-width:768px){
+    .aspects {
+    width: 768px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   }
+
+   .featers-icon {
+    margin-top:60px;
+    margin:0 auto;
+min-width: 450px;
+height: 120px;
+border-radius: 4px;
+background-color: #f5f4fa;
+}
+
+.aspects-icon {
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 164px;
+text-align: center;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+}
+
+.aspect {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+/* or 171% */
+margin:0 auto;
+max-width:354px;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+
    .aspect-item {
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 94px;
@@ -41,28 +111,134 @@
    }
    
    .aspect-list {
-    width: 1200px;
-    margin: 0 auto;
-    flex-basis: calc(100% / 4 - 30px);
+       max-width:768px;
+       flex:wrap;
     margin-top: 30px;
    }
    
    .aspect-list:not(:last-child) {
     margin-right: 30px;
    }
-   
-   .aspects {
-    width: 1200px;
-    margin: 0 auto;
+}
+
+@media screen and (min-width:1200px){
+    .aspects {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right:15px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        align-items: center;
+       }
+    
+       .featers-icon {
+        margin-top:60px;
+        margin:0 auto;
+        min-width:270px;
+        padding-right: 15px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    }
+    
+    .aspects-icon {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 102px;
     text-align: center;
-    padding-right: 15px;
-    padding-left: 15px;
-   }
-   
-   .aspect-item .aspects {
-    display: flex;
     align-items: center;
-   }
+    box-sizing: border-box;
+    }
+    
+    .aspect {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    margin:0 auto;
+    max-width:354px;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    }
+    
+       .aspect-item {
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 94px;
+        padding-bottom: 94px;
+        margin-top: -30px;
+       }
+       
+       .aspect-list {
+           max-width:294px;
+        margin-top: 30px;
+       }
+       
+       .aspect-list:not(:last-child) {
+        margin-right: 30px;
+       }
+}
+
+// .aspects {
+//     width: 100%;
+//     margin: 0 auto;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     display: flex;
+//     text-align: center;
+//     align-items: center;
+//    }
+   
+   
+   
+//    .featers-icon {
+//     width: 270px;
+//     height: 120px;
+//     border-radius: 4px;
+//     background-color: #f5f4fa;
+//    }
+   
+   
+   
+//    .aspect-item {
+//     margin: 0 auto;
+//     display: flex;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//     margin-top: -30px;
+//    }
+   
+//    .aspect-list {
+//     width: 1200px;
+//     margin: 0 auto;
+//     flex-basis: calc(100% / 4 - 30px);
+//     margin-top: 30px;
+//    }
+   
+//    .aspect-list:not(:last-child) {
+//     margin-right: 30px;
+//    }
+   
+//    .aspects {
+//     width: 1200px;
+//     margin: 0 auto;
+//     text-align: center;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//    }
+   
+//    .aspect-item .aspects {
+//     display: flex;
+//     align-items: center;
+//    }
    
    .aspect-heading {
     padding-top: 30px;
@@ -76,10 +252,4 @@
     color: #212121;
    }
    
-   .aspect {
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-   }
+ 
