@@ -20,6 +20,60 @@
    
    
 @media screen and(max-width:767px){
+    
+.mobile-menu-link{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 17px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+    .burger-connection{
+        padding-top: 102px;
+    }
+
+.social-burger{
+    display:flex;
+    padding-top:32px;
+}
+
+.connection-burger{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+color: #2196F3;
+
+}
+
+.connection-burger-link{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.connection-menu{
+    padding-top:6px;
+}
+
+.social-web{
+    color:#2196f3;
+    padding-right: 20px;
+}
+
     .navigation-list{
         display:none;
            }
@@ -28,6 +82,7 @@
                display:none;
            }
         
+
         .burger-btn,
         .mobile-menu-close-btn{
             background-color:transparent;
@@ -184,8 +239,104 @@ margin-left:84px;
        .connection-list{
            display:block;
        }
+ }
 
-   }
+@media screen and(min-width:1200px) {
+    .burger-btn{
+        display:none;
+    }
+
+    .mobile-menu{
+        display:none;
+    }
+
+    .navigation-list{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav{
+     font-family: "Roboto", sans-serif;
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 1.14;
+         letter-spacing: 0.02em;
+         color: #212121;
+    }
+
+    .navigation{
+        display:flex;
+ align-items: center;
+    }
+
+       .navigation-item:not(:last-child) {
+ margin-right: 50px;
+}
+
+.devise-icon{
+ width: 14px;
+ height: 10px;
+}
+
+.current{
+   position: relative;
+   color: #2196f3;
+}
+
+.current::after {
+ position: absolute;
+ content: '';
+ display: inline;
+ width: 100%;
+ height: 4px;
+ border-radius: 2px;
+ background-color: #2196f3;
+ transform: translateX(-100%);
+ bottom: 0;
+ 
+}
+
+.devise-icon {
+ display: flex;
+ align-items: center;
+ width: 20px;
+ height: 16px;
+}
+
+.connection-list {
+margin-left:84px;
+display:flex;
+ align-items: center;
+}
+
+.connection-item:not(:last-child) {
+ margin-right: 50px;
+}
+
+.connection {
+ display: flex;
+ align-items: center;
+ font-family: "Roboto", sans-serif;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.02em;
+ color: #212121;
+}
+
+.connection:hover,
+.connection:focus {
+color: #2196f3;
+}
+
+.nav:hover,
+.nav:focus {
+color: #2196f3;
+}
+
+}
+
+
 //    .border-bottom {
 //     margin-top: 24px;
 //     width: 1200px;

@@ -26,7 +26,12 @@
   
  }
  
-.subscription-btn{
+.subscrition-btn{
+  width:450px;
+  height: 50px;
+  margin-left:30px;
+  align-items:center;
+  margin-top: 10px;
   background-color:#2F303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -66,3 +71,144 @@
 
 }
   
+@media screen and(min-width:768px){
+  .footer-subscription{
+    display: block;
+    align-items:center;
+    padding-top:30px;
+   }
+  
+   
+   .input-footer{
+     text-align:center;
+     font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   
+   color: #FFFFFF;
+   
+   }
+  
+   .airplane{
+     width: 24px;
+     height: 24px;
+    
+   }
+   
+  .subscrition-btn{
+    width:450px;
+    height: 50px;
+    margin-left:300px;
+    align-items:center;
+    margin-top: 10px;
+    background-color:#2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+  }
+  
+   .subscription{
+     margin:0 auto;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 1,875;
+     
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+     padding-left: 29px;
+     display: flex;
+   color: #FFFFFF;
+   padding-top:10px;
+   padding-bottom:13px;
+   max-height: 50px;
+   
+   }
+  
+   .btn-subscripton{
+     margin:0 auto;
+     margin-top:20px;
+     display: block;
+     border-radius: 5px;
+   min-width: 200px;
+   height: 50px;
+   
+   
+     background-color: #2196F3;
+   }
+  
+}
+
+@media screen and(min-width:1200px) {
+  .footer-subscription{
+    margin-left: 615px;
+    padding-bottom: 90px;
+      width: 1200px;
+      margin-top: -194px;
+  }
+
+  
+.input-footer{
+  margin-right:700px;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  }
+
+  .airplane{
+    width: 24px;
+    height: 24px;
+   
+  }
+  
+  .subscription{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1,875;
+    
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding-left: 29px;
+    display: flex;
+  color: #FFFFFF;
+  padding-top:10px;
+  padding-bottom:13px;
+  max-height: 50px;
+  
+  }
+
+  .btn-subscripton{
+    border-radius: 5px;
+  min-width: 200px;
+  height: 50px;
+  margin-top: -50px;
+    background-color: #2196F3;
+  }
+
+  .subscrition-btn{
+    width:450px;
+    height: 50px;
+    margin-left:30px;
+    align-items:center;
+    margin-top: 10px;
+    background-color:#2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+  }
+  
+}

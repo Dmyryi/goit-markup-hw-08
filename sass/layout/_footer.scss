@@ -29,6 +29,8 @@
     padding-bottom: 60px;
   }
 
+
+
   .div-logo {
     text-align: center;
     margin: 0 auto;
@@ -60,3 +62,130 @@
 
 }
 
+@media screen and(min-width:768px) {
+  .footer-item {
+    margin-left: 250px;
+    display: flex;
+  }
+
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+
+  .footer {
+    width: 100%;
+    padding-top: 94px;
+    background-color: #2f303a;
+  }
+
+  .footer-list {
+    width: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+
+.footer-link{
+  margin-left:-370px;
+}
+
+  .div-logo {
+   width: 768px;
+   margin-left: -100px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .heading-footer {
+    padding-top: -178px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+
+  
+.footer{
+  padding-bottom: 60px;
+}
+
+}
+
+@media screen and(min-width:1200px) {
+  .footer-item {
+    margin-left: 250px;
+    display: flex;
+  }
+
+  .div-footer{
+    margin-left: -470px;
+  }
+
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+
+  .footer {
+    width: 100%;
+    padding-top: 94px;
+    background-color: #2f303a;
+  }
+
+  .footer-list {
+    width: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+  }
+
+.footer-link{
+ margin-left: -470px;
+}
+
+  .div-logo {
+   width: 1200px;
+   margin-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .heading-footer {
+    padding-top: -178px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+
+  
+.footer{
+  padding-bottom: 60px;
+}
+
+}
